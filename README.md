@@ -52,3 +52,53 @@ be</a>
     </section>
   </body>
 </html>
+
+maintext {
+  background-color:white;
+  color: gray;
+  box-shadow: 5px 10px 30px rgba (0,0,0.02);
+  z-index: 1;
+}
+
+* {
+  background-color:white;
+}
+
+.content{
+  color:black;
+}
+
+* {
+  color:black;
+}
+
+.logo{
+  box-sizing: content-box;
+  background-color:rgb(255,255,255);
+  color:rgb(3,102,214);
+  color-scheme:light;
+  cursor: pointer;
+  font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;
+  line-height:24px;
+  max-width:100%;
+  overflow-wrap:break-word;
+  text-align:center;
+}
+
+.website{
+  color: blue;
+}
+
+.logo img{
+  width:75%;
+  height:75%;
+}
+
+
+p {
+    display:block;
+    margin-block-start:1em;
+    margin-block-end:1em;
+    margin-inline-start:0px;
+    margin-inline-end:0p
+}
